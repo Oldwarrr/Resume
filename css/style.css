@@ -95,6 +95,9 @@ h4:not(:first-of-type)::before{
     font-size: 12px;
     line-height: 20px;
 }
+.bold{
+    font-weight: bold;
+}
 
 
 /*Header*/
@@ -218,6 +221,9 @@ footer .contact{
 }
 #js{
     background: linear-gradient(to right,transparent 1%, white 1%, white 10%, transparent 10%);
+}
+#php{
+    background: linear-gradient(to right,transparent 1%, white 1%, white 40%, transparent 40%);
 }
 input[type='range']{
     display: block;
@@ -587,7 +593,7 @@ section{
     .header__skills{
         flex-direction: column;
     }
-    .skills__item, #html, #css, #js{
+    .skills__item, #html, #css, #js,#php{
         width: inherit;
         max-width: none;
     }
